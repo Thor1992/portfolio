@@ -66,9 +66,49 @@ npm run build
 
 ## 自定义内容
 
-1. 编辑 `/data/content.json` 文件来更新网站内容
-2. 在 `/public/images` 目录下替换图片资源
-3. 根据需要修改 `/lib/i18n.ts` 中的翻译文本
+### 1. 配置个人内容
+
+1. 在 `/data` 目录下，将 `content.example.json` 复制并重命名为 `content.json`
+2. 编辑 `content.json` 文件，更新以下内容：
+   - `hero`: 首页个人介绍部分
+     - `welcome`: 欢迎语
+     - `name`: 你的名字
+     - `title`: 你的职位头衔
+     - `description`: 个人简介
+     - `location`: 所在地
+   - `portfolio`: 作品集展示
+     - `projects`: 项目列表，每个项目包含：
+       - `title`: 项目标题（中文）
+       - `titleEn`: 项目标题（英文）
+       - `category`: 项目类别（中文）
+       - `categoryEn`: 项目类别（英文）
+       - `image`: 项目图片路径
+       - `description`: 项目描述（中文）
+       - `descriptionEn`: 项目描述（英文）
+   - `resume`: 简历信息
+     - `experiences`: 工作经历列表
+     - `education`: 教育背景
+   - `contact`: 联系方式
+
+### 2. 更新图片资源
+
+1. 在 `/public/images` 目录下替换以下图片：
+   - `avatar.jpg`: 个人头像
+   - `project-1.jpg`, `project-2.jpg` 等: 项目展示图片
+2. 确保图片分辨率适中，建议使用 JPEG 或 WebP 格式
+
+### 3. 修改翻译文本
+
+1. 在 `/lib/i18n.ts` 文件中更新翻译内容
+2. 确保中英文翻译键值对完整
+
+### 4. 个人信息安全
+
+为了保护个人信息安全，建议：
+
+1. 将 `content.json` 添加到 `.gitignore` 文件中，避免个人信息被提交到代码仓库
+2. 在本地开发环境中维护个人的 `content.json` 文件
+3. 在生产环境部署时，单独配置个人内容
 
 ## 部署
 
