@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "welcome": "👋 嘿，欢迎来到我的网站",
+    "name": "黄新贺",
+    "title": "面向用户端产品专家",
+    "description": "10年互联网行业经验，擅长用户增长、B/C端产品优化及商业化设计。具备框架性思维与创新能力，在低成本撬动规模增长、用户提频、营销场景构建等领域有显著成果。",
+    "location": "📍 杭州",
+    "phone": "183-6886-8864",
+    "email": "huangxinhe1992@163.com"
+  },
+  "portfolio": {
+    "title": "项目展示",
+    "subtitle": "我的作品",
+    "description": "这里展示了我参与过的一些重要项目，体现了我在产品设计和用户增长方面的实践经验。",
+    "projects": [
+      {
+        "title": "阿里巴巴导购场景创新",
+        "titleEn": "Alibaba Shopping Guide Innovation",
+        "category": "产品优化",
+        "categoryEn": "Product Optimization",
+        "image": "/images/project-1.jpg",
+        "description": "打造站外比价、同款比价功能，建立价格筛选差异化体验。榜单日均ORGUV达14.3W（同比+25.84%），价格筛选功能上线后用户留存率提升18%。",
+        "descriptionEn": "Created external price comparison and similar product comparison features, establishing differentiated price filtering experience. Daily ranking ORGUV reached 143K (YoY +25.84%), user retention rate increased by 18% after price filtering feature launch."
+      },
+      {
+        "title": "美团会员增长与提频优化",
+        "titleEn": "Meituan Membership Growth Optimization",
+        "category": "用户增长",
+        "categoryEn": "User Growth",
+        "image": "/images/project-2.jpg",
+        "description": "设计试用版会员分层投放策略，结合福利金体系提升用户转化与下单频次。实验城市首月会员规模+14%，会员月频次提升0.23单。",
+        "descriptionEn": "Designed trial membership tiered distribution strategy, combined with welfare system to improve user conversion and order frequency. First month membership size +14% in experimental cities, monthly frequency increased by 0.23 orders."
+      },
+      {
+        "title": "字节跳动用户增长项目",
+        "titleEn": "ByteDance User Growth Project",
+        "category": "用户增长",
+        "categoryEn": "User Growth",
+        "image": "/images/project-3.jpg",
+        "description": "优化用户引导流程，设计个性化推荐算法，提升用户活跃度和留存率。项目上线后DAU提升35%，30天留存率提升20%。",
+        "descriptionEn": "Optimized user onboarding process, designed personalized recommendation algorithms, improved user engagement and retention. After launch, DAU increased by 35%, 30-day retention rate improved by 20%."
+      }
+    ]
+  },
+  "resume": {
+    "title": "教育与经历",
+    "subtitle": "我的简历",
+    "description": "这里记录了我的职业发展历程，展示了我在不同公司和岗位上的成长与成就。",
+    "experiences": [
+      {
+        "company": "阿里巴巴",
+        "position": "产品专家",
+        "period": "2021.8 - 至今",
+        "description": "主导B端电商平台首页及导购场景优化，推动核心数据增长与用户体验升级。首页CTR提升17.51%，paybuyer数+31.35%；Top Deals场景流量增长260%，场景paybuyer+470%；物流导购场景上线，工具使用效率显著提升。"
+      },
+      {
+        "company": "美团（用户增长中心-会员）",
+        "position": "高级产品经理",
+        "period": "2019.12 - 2021.8",
+        "description": "负责美团会员权益体系设计与会员增长，推动会员规模与活跃提升。设计会员分层运营策略，优化会员权益投放机制，实现会员规模持续增长。"
+      }
+    ],
+    "education": {
+      "title": "本科",
+      "school": "浙江大学",
+      "major": "计算机科学与技术",
+      "period": "2011 - 2015"
+    }
+  },
+  "contact": {
+    "email": "huangxinhe1992@163.com",
+    "phone": "183-6886-8864"
+  }
+}
