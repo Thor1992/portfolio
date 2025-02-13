@@ -1,6 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/components/language-provider"
+import Image from "next/image"
 
 export default function Resume() {
   const { t } = useLanguage()
@@ -18,7 +19,10 @@ export default function Resume() {
           <div className="relative pl-8 border-l border-primary">
             <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-0" />
             <h3 className="text-xl font-bold mb-2 dark:text-white">{t("resume.experience.alibaba.title")}</h3>
-            <p className="text-muted-foreground mb-2">{t("resume.experience.alibaba.company")}</p>
+            <div className="flex items-center gap-2 text-muted-foreground mb-2">
+              <Image src="/images/logos/alibaba.png" width={24} height={24} alt="Alibaba Logo" className="rounded-full bg-white p-1" />
+              <p>{t("resume.experience.alibaba.company")}</p>
+            </div>
             <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary text-white">{t("resume.experience.alibaba.period")}</span>
             <p className="mt-4 text-muted-foreground">
               {t("resume.experience.alibaba.description")}
@@ -28,7 +32,10 @@ export default function Resume() {
           <div className="relative pl-8 border-l border-primary">
             <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-0" />
             <h3 className="text-xl font-bold mb-2 dark:text-white">{t("resume.experience.meituan.title")}</h3>
-            <p className="text-muted-foreground mb-2">{t("resume.experience.meituan.company")}</p>
+            <div className="flex items-center gap-2 text-muted-foreground mb-2">
+              <Image src="/images/logos/meituan.png" width={24} height={24} alt="Meituan Logo" className="rounded-full bg-white p-1" />
+              <p>{t("resume.experience.meituan.company")}</p>
+            </div>
             <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary text-white">{t("resume.experience.meituan.period")}</span>
             <p className="mt-4 text-muted-foreground">
               {t("resume.experience.meituan.description")}
@@ -38,7 +45,10 @@ export default function Resume() {
           <div className="relative pl-8 border-l border-primary">
             <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-0" />
             <h3 className="text-xl font-bold mb-2 dark:text-white">{t("resume.experience.jd.title")}</h3>
-            <p className="text-muted-foreground mb-2">{t("resume.experience.jd.company")}</p>
+            <div className="flex items-center gap-2 text-muted-foreground mb-2">
+              <Image src="/images/logos/jd.png" width={24} height={24} alt="JD Logo" className="rounded-full bg-white p-1" />
+              <p>{t("resume.experience.jd.company")}</p>
+            </div>
             <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary text-white">{t("resume.experience.jd.period")}</span>
             <p className="mt-4 text-muted-foreground">
               {t("resume.experience.jd.description")}
@@ -48,7 +58,10 @@ export default function Resume() {
           <div className="relative pl-8 border-l border-primary">
             <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-0" />
             <h3 className="text-xl font-bold mb-2 dark:text-white">{t("resume.experience.minion.title")}</h3>
-            <p className="text-muted-foreground mb-2">{t("resume.experience.minion.company")}</p>
+            <div className="flex items-center gap-2 text-muted-foreground mb-2">
+              <Image src="/images/logos/minion.jpeg" width={24} height={24} alt="Minion Logo" className="rounded-full bg-white p-1" />
+              <p>{t("resume.experience.minion.company")}</p>
+            </div>
             <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary text-white">{t("resume.experience.minion.period")}</span>
             <p className="mt-4 text-muted-foreground">
               {t("resume.experience.minion.description")}
@@ -58,7 +71,10 @@ export default function Resume() {
           <div className="relative pl-8 border-l border-primary">
             <div className="absolute w-4 h-4 bg-primary rounded-full -left-2 top-0" />
             <h3 className="text-xl font-bold mb-2 dark:text-white">{t("resume.experience.education.title")}</h3>
-            <p className="text-muted-foreground mb-2">{t("resume.experience.education.school")} · {t("resume.experience.education.major")}</p>
+            <div className="flex items-center gap-2 text-muted-foreground mb-2">
+              <Image src="/images/logos/hrbu.png" width={24} height={24} alt="HRBU Logo" className="rounded-full bg-white p-1" />
+              <p>{t("resume.experience.education.school")} · {t("resume.experience.education.major")}</p>
+            </div>
             <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary text-white">{t("resume.experience.education.period")}</span>
           </div>
         </div>
