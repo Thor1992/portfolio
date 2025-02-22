@@ -29,7 +29,40 @@ export const translations = {
         productOptimization: "产品优化",
         userGrowth: "用户增长",
         commercialization: "商业化设计"
-      }
+      },
+      projects: [
+        {
+          title: "构建阿里国际站省钱场景",
+          titleEn: "Building Money-saving Scenarios for Alibaba International",
+          category: "产品优化",
+          categoryEn: "Product Optimization",
+          image: "/images/project-1.jpg",
+          description: `背景：
+国际站作为平台型电商，缺乏定价权（商品/物流），"省钱"场景难以定义，用户心智建立困难。
+
+方法：
+我带领小组充分分析调研用户成交特征，确立全平台认可的低价商品标准；利用AI同款比价技术筛选低价商品，推出"同款低价"功能，强化场景心智；联合商家、行业团队，深度挖掘开发低价商品，提升买家匹配度。
+
+成果：
+Top Deals场景渗透率提升285%，场景交易买家数增长161%，场景供给增长7倍。`,
+          descriptionEn: `Background:
+As a platform-based e-commerce website, the international site lacks pricing control (products/logistics), making it challenging to define "money-saving" scenarios and establish user mindset.
+
+Approach:
+Led the team to analyze user transaction characteristics, established platform-wide low-price product standards; utilized AI price comparison technology to select low-price products, launched "Same Item, Lower Price" feature to strengthen scenario awareness; collaborated with merchants and industry teams to develop low-price products, improving buyer matching.
+
+Results:
+Top Deals scenario penetration increased by 285%, transaction buyers grew by 161%, and supply increased 7-fold.`
+        },
+        {
+          title: "美团会员增长与提频优化",
+          titleEn: "Meituan Membership Growth and Frequency Optimization",
+          category: "用户增长",
+          categoryEn: "User Growth",
+          image: "/images/project-2.jpg",
+          description: "• 背景：美团会员（千万DAU级）需要提升规模与活跃度。\n\n• 方法：通过会员权益优化与任务体系设计提升用户活跃度。\n\n• 成果：月会员渗透率提升2pp，会员月下单频次提升0.23次，增量ROI达13.6（试用版）与57（福利金），任务提频贡献0.1-0.15单/用户/月。"
+        }
+      ]
     },
     contact: {
       title: "联系我",
@@ -53,25 +86,25 @@ export const translations = {
           title: "产品专家",
           company: "阿里巴巴",
           period: "2021.8 - 至今",
-          description: "主导B端电商平台首页及导购场景优化，推动核心数据增长与用户体验升级。首页CTR提升17.51%，paybuyer数+31.35%；Top Deals场景流量增长260%，场景paybuyer+470%；物流导购场景上线，工具使用效率显著提升。"
+          description: "1. 背景：作为平台型电商网站，国际站缺乏定价权（商品/物流），难以定义\"省钱\"场景，建立用户心智。\n\n2. 方法：带领团队深入分析用户成交特征，确立平台通用低价商品标准；利用AI同款比价技术筛选低价商品，推出\"同款低价\"功能强化场景心智；联合商家及行业团队深度挖掘开发低价商品，提升买家匹配度。\n\n3. 成果：Top Deals场景渗透率提升285%，场景交易买家数增长161%，场景供给增长7倍。"
         },
         meituan: {
           title: "高级产品经理",
           company: "美团（用户增长中心-会员）",
           period: "2019.12 - 2021.8",
-          description: "负责美团会员（千万DAU级）规模增长与下单频次提升。月会员渗透率提升2pp，会员月下单频次提升0.23次，增量ROI达13.6（试用版）与57（福利金）；任务提频贡献0.1-0.15单/用户/月。"
+          description: "1. 背景：美团会员（千万DAU级）需要提升规模与活跃度。\n\n2. 方法：通过会员权益优化与任务体系设计提升用户活跃度。\n\n3. 成果：月会员渗透率提升2pp，会员月下单频次提升0.23次，增量ROI达13.6（试用版）与57（福利金），任务提频贡献0.1-0.15单/用户/月。"
         },
         jd: {
           title: "产品经理",
           company: "京东（商家营销产品部）",
           period: "2018.3 - 2019.12",
-          description: "提升京东店铺内转化率，构建营销场景与用户匹配效率工具。店铺转化率提升3pp至20.89%，双十二峰值转化率达53.5%；店铺搜索热词UV价值提升38.89%，上新海报转化率9%。"
+          description: "1. 背景：店铺内转化率有提升空间。\n\n2. 方法：构建营销场景与用户匹配效率工具。\n\n3. 成果：店铺转化率提升3pp至20.89%，双十二峰值转化率达53.5%，店铺搜索热词UV价值提升38.89%，上新海报转化率9%。"
         },
         minion: {
           title: "产品经理",
           company: "小黄人科技",
           period: "2015.11 - 2018.3",
-          description: "独立负责微信排版编辑器产品规划与商业化。用户量从3.8W增长至60W，付费率从1%提升至10%；企业定制服务首月接单32单（客单价4000~10000），服务奔驰、三星等客户。"
+          description: "1. 背景：微信排版编辑器产品需要商业化突破。\n\n2. 方法：独立负责产品规划与商业化方案设计。\n\n3. 成果：用户量从3.8W增长至60W，付费率从1%提升至10%，企业定制服务首月接单32单（客单价4000~10000），服务奔驰、三星等客户。"
         },
         education: {
           title: "本科学历",
@@ -115,7 +148,40 @@ export const translations = {
         productOptimization: "Product Optimization",
         userGrowth: "User Growth",
         commercialization: "Commercial Design"
-      }
+      },
+      projects: [
+        {
+          title: "Building Money-saving Scenarios for Alibaba International",
+          titleEn: "Building Money-saving Scenarios for Alibaba International",
+          category: "Product Optimization",
+          categoryEn: "Product Optimization",
+          image: "/images/project-1.jpg",
+          description: `Background:
+As a platform-based e-commerce website, the international site lacks pricing control (products/logistics), making it challenging to define "money-saving" scenarios and establish user mindset.
+
+Approach:
+Led the team to analyze user transaction characteristics, established platform-wide low-price product standards; utilized AI price comparison technology to select low-price products, launched "Same Item, Lower Price" feature to strengthen scenario awareness; collaborated with merchants and industry teams to develop low-price products, improving buyer matching.
+
+Results:
+Top Deals scenario penetration increased by 285%, transaction buyers grew by 161%, and supply increased 7-fold.`,
+          descriptionEn: `Background:
+As a platform-based e-commerce website, the international site lacks pricing control (products/logistics), making it challenging to define "money-saving" scenarios and establish user mindset.
+
+Approach:
+Led the team to analyze user transaction characteristics, established platform-wide low-price product standards; utilized AI price comparison technology to select low-price products, launched "Same Item, Lower Price" feature to strengthen scenario awareness; collaborated with merchants and industry teams to develop low-price products, improving buyer matching.
+
+Results:
+Top Deals scenario penetration increased by 285%, transaction buyers grew by 161%, and supply increased 7-fold.`
+        },
+        {
+          title: "Meituan Membership Growth and Frequency Optimization",
+          titleEn: "Meituan Membership Growth and Frequency Optimization",
+          category: "User Growth",
+          categoryEn: "User Growth",
+          image: "/images/project-2.jpg",
+          description: "• Background: Meituan membership (10M+ DAU) needed scale and engagement improvement.\n\n• Approach: Enhanced member benefits and designed task systems to improve user engagement.\n\n• Results: Monthly membership penetration increased by 2pp, member monthly order frequency increased by 0.23, incremental ROI reached 13.6 (trial version) and 57 (benefit points), task engagement contributed 0.1-0.15 orders/user/month."
+        }
+      ]
     },
     contact: {
       title: "Contact",
@@ -139,25 +205,25 @@ export const translations = {
           title: "Product Expert",
           company: "Alibaba",
           period: "2021.8 - Present",
-          description: "Led B-end e-commerce platform homepage and shopping scenario optimization, driving core metrics growth and user experience upgrades. Homepage CTR increased by 17.51%, paybuyer +31.35%; Top Deals scenario traffic grew 260%, scenario paybuyer +470%; Logistics shopping scenario launched with significantly improved tool efficiency."
+          description: "1. Background: As a platform-based e-commerce website, the international site lacks pricing control (products/logistics), making it challenging to define \"money-saving\" scenarios and establish user mindset.\n\n2. Approach: Led the team to analyze user transaction characteristics, established platform-wide low-price product standards; utilized AI price comparison technology to select low-price products, launched \"Same Item, Lower Price\" feature to strengthen scenario awareness; collaborated with merchants and industry teams to develop low-price products, improving buyer matching.\n\n3. Results: Top Deals scenario penetration increased by 285%, transaction buyers grew by 161%, and supply increased 7-fold."
         },
         meituan: {
           title: "Senior Product Manager",
           company: "Meituan (User Growth Center - Membership)",
           period: "2019.12 - 2021.8",
-          description: "Responsible for Meituan membership (10M+ DAU) scale growth and order frequency improvement. Monthly membership penetration increased by 2pp, member monthly order frequency increased by 0.23, incremental ROI reached 13.6 (trial version) and 57 (benefit points); task engagement contributed 0.1-0.15 orders/user/month."
+          description: "1. Background: Meituan membership (10M+ DAU) needed scale and engagement improvement.\n\n2. Approach: Enhanced member benefits and designed task systems to improve user engagement.\n\n3. Results: Monthly membership penetration increased by 2pp, member monthly order frequency increased by 0.23, incremental ROI reached 13.6 (trial version) and 57 (benefit points), task engagement contributed 0.1-0.15 orders/user/month."
         },
         jd: {
           title: "Product Manager",
           company: "JD.com (Merchant Marketing Product Department)",
           period: "2018.3 - 2019.12",
-          description: "Improved JD store conversion rate, built marketing scenarios and user matching efficiency tools. Store conversion rate increased by 3pp to 20.89%, Double 12 peak conversion rate reached 53.5%; store search hot word UV value increased by 38.89%, new product poster conversion rate 9%."
+          description: "1. Background: Store conversion rate had room for improvement.\n\n2. Approach: Built marketing scenarios and user matching efficiency tools.\n\n3. Results: Store conversion rate increased by 3pp to 20.89%, Double 12 peak conversion rate reached 53.5%; store search hot word UV value increased by 38.89%, new product poster conversion rate 9%."
         },
         minion: {
           title: "Product Manager",
           company: "Minion Technology",
           period: "2015.11 - 2018.3",
-          description: "Independently responsible for WeChat layout editor product planning and commercialization. User base grew from 38K to 600K, paid rate increased from 1% to 10%; enterprise customization service received 32 orders in the first month (unit price 4000-10000), serving clients like Mercedes-Benz and Samsung."
+          description: "1. Background: WeChat layout editor product needed commercialization breakthrough.\n\n2. Approach: Independently led product planning and commercialization strategy.\n\n3. Results: User base grew from 38K to 600K, paid rate increased from 1% to 10%; enterprise customization service received 32 orders in the first month (unit price 4000-10000), serving clients like Mercedes-Benz and Samsung."
         },
         education: {
           title: "Bachelor's Degree",
