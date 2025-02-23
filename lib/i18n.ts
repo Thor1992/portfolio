@@ -1,3 +1,5 @@
+import content from '../data/content.json';
+
 export const translations = {
   zh: {
     nav: {
@@ -12,12 +14,12 @@ export const translations = {
     },
     hero: {
       welcome: "👋 嘿，欢迎来到我的网站",
-      name: "黄新贺",
-      title: "面向用户端产品专家",
-      description: "10年互联网行业经验，擅长用户增长、B/C端产品优化及商业化设计。具备框架性思维与创新能力，在低成本撬动规模增长、用户提频、营销场景构建等领域有显著成果。",
-      location: "📍 杭州",
-      phone: "📞 183-6886-8864",
-      email: "✉️ huangxinhe1992@163.com",
+      name: content.hero.name,
+      title: content.hero.title,
+      description: content.hero.description,
+      location: content.hero.location,
+      phone: content.hero.phone,
+      email: content.hero.email,
       contactMe: "联系我"
     },
     portfolio: {
@@ -61,6 +63,15 @@ Top Deals scenario penetration increased by 285%, transaction buyers grew by 161
           categoryEn: "User Growth",
           image: "/images/project-2.jpg",
           description: "• 背景：美团会员（千万DAU级）需要提升规模与活跃度。\n\n• 方法：通过会员权益优化与任务体系设计提升用户活跃度。\n\n• 成果：月会员渗透率提升2pp，会员月下单频次提升0.23次，增量ROI达13.6（试用版）与57（福利金），任务提频贡献0.1-0.15单/用户/月。"
+        },
+        {
+          title: "构建一站式私域营销体系",
+          titleEn: "Building One-stop Private Domain Marketing System",
+          category: "用户转化提升",
+          categoryEn: "Conversion Rate Optimization",
+          image: "/images/project-3.jpg",
+          description: "背景：京东自营生态强势导致店铺认知薄弱、营销碎片化，进店流量缺乏有效的转化手段。方法：基于用户「省钱心智」整合店铺分散的促销资源，设计强感知店铺活动氛围，规模化提升店铺转化能力。成果：实现店铺活动转化率从7%提升至22%，双十二峰值转化率高达53.5%；同时帮助店铺转化率提升接近3pt。",
+          descriptionEn: "Background: JD's strong self-operated ecosystem led to weak store recognition and fragmented marketing, lacking effective conversion tools for store traffic. Method: Integrated scattered promotional resources based on users' 'money-saving mindset', designed highly perceptible store activity atmosphere to scale up store conversion capability. Results: Increased store activity conversion rate from 7% to 22%, with Double 12 peak conversion rate reaching 53.5%; helped improve store conversion rate by nearly 3 percentage points."
         }
       ]
     },
@@ -211,19 +222,19 @@ Top Deals scenario penetration increased by 285%, transaction buyers grew by 161
           title: "Senior Product Manager",
           company: "Meituan (User Growth Center - Membership)",
           period: "2019.12 - 2021.8",
-          description: "1. Background: Meituan membership (10M+ DAU) needed scale and engagement improvement.\n\n2. Approach: Enhanced member benefits and designed task systems to improve user engagement.\n\n3. Results: Monthly membership penetration increased by 2pp, member monthly order frequency increased by 0.23, incremental ROI reached 13.6 (trial version) and 57 (benefit points), task engagement contributed 0.1-0.15 orders/user/month."
+          description: "Responsible for exploring takeaway membership scale growth and order frequency improvement. Helped increase takeaway membership penetration by 2pt (department-wide growth of 6pt in 2020); monthly frequency increased by 0.23 orders."
         },
         jd: {
           title: "Product Manager",
           company: "JD.com (Merchant Marketing Product Department)",
           period: "2018.3 - 2019.12",
-          description: "1. Background: Store conversion rate had room for improvement.\n\n2. Approach: Built marketing scenarios and user matching efficiency tools.\n\n3. Results: Store conversion rate increased by 3pp to 20.89%, Double 12 peak conversion rate reached 53.5%; store search hot word UV value increased by 38.89%, new product poster conversion rate 9%."
+          description: "Responsible for JD's store marketing product line, improving merchant marketing conversion rates and enhancing merchants' self-marketing capabilities. Helped increase store promotion conversion rate from 7% to 22%, with Double 12 peak conversion rate reaching 53.5%; simultaneously helped improve store conversion rate by nearly 3pt."
         },
         minion: {
           title: "Product Manager",
           company: "Minion Technology",
           period: "2015.11 - 2018.3",
-          description: "1. Background: WeChat layout editor product needed commercialization breakthrough.\n\n2. Approach: Independently led product planning and commercialization strategy.\n\n3. Results: User base grew from 38K to 600K, paid rate increased from 1% to 10%; enterprise customization service received 32 orders in the first month (unit price 4000-10000), serving clients like Mercedes-Benz and Samsung."
+          description: "Independently responsible for iTypesetting WeChat editor product planning and commercialization solution design. Helped grow product user base from 38K to 600K, increased paid rate from 1% to 10%, serving clients like Mercedes-Benz and Samsung."
         },
         education: {
           title: "Bachelor's Degree",
