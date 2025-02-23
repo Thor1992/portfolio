@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-let userConfig = undefined
-try {
-  userConfig = await import('./v0-user-next.config')
-} catch (e) {
-  // ignore error
-}
-
-=======
->>>>>>> master
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -18,15 +8,12 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-<<<<<<< HEAD
-=======
     remotePatterns: [
       {
         protocol: 'https',
         hostname: '**',
       },
     ],
->>>>>>> master
   },
   // 移除可能导致问题的实验性配置
   experimental: {
