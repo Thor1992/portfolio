@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "welcome": "👋 嘿，欢迎来到我的网站",
+    "name": "你的名字",
+    "title": "你的职位",
+    "description": "在这里填写你的个人简介",
+    "location": "📍 城市",
+    "phone": "你的电话",
+    "email": "你的邮箱"
+  },
+  "portfolio": {
+    "title": "项目展示",
+    "subtitle": "我的作品",
+    "description": "这里展示了我参与过的一些重要项目，体现了我在产品设计和用户增长方面的实践经验。",
+    "projects": [
+      {
+        "title": "项目标题",
+        "titleEn": "Project Title",
+        "category": "项目类别",
+        "categoryEn": "Project Category",
+        "image": "/images/project-1.jpg",
+        "description": "在这里填写项目描述",
+        "descriptionEn": "Project description in English"
+      }
+    ]
+  },
+  "resume": {
+    "title": "教育与经历",
+    "subtitle": "我的简历",
+    "description": "这里记录了我的职业发展历程，展示了我在不同公司和岗位上的成长与成就。",
+    "experiences": [
+      {
+        "company": "公司名称",
+        "position": "职位名称",
+        "period": "工作时间",
+        "description": "工作描述"
+      }
+    ],
+    "education": {
+      "title": "学历",
+      "school": "学校名称",
+      "major": "专业名称",
+      "period": "就读时间"
+    }
+  },
+  "contact": {
+    "email": "你的邮箱",
+    "phone": "你的电话"
+  }
+}
