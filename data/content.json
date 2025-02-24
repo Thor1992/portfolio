@@ -39,6 +39,15 @@
         "image": "/images/project-3.jpg",
         "description": "背景：京东自营生态强势导致店铺认知薄弱、营销碎片化，进店流量缺乏有效的转化手段。方法：基于用户「省钱心智」整合店铺分散的促销资源，设计强感知店铺活动氛围，规模化提升店铺转化能力。成果：实现店铺活动转化率从7%提升至22%，双十二峰值转化率高达53.5%；同时帮助店铺转化率提升接近3pt。",
         "descriptionEn": "Background: JD's strong self-operated ecosystem led to weak store recognition and fragmented marketing, lacking effective conversion tools for store traffic. Method: Integrated scattered promotional resources based on users' 'money-saving mindset', designed highly perceptible store activity atmosphere to scale up store conversion capability. Results: Increased store activity conversion rate from 7% to 22%, with Double 12 peak conversion rate reaching 53.5%; helped improve store conversion rate by nearly 3 percentage points."
+      },
+      {
+        "title": "使用 AI 构建个人网站",
+        "titleEn": "Building Personal Website with AI",
+        "category": "AI 开发",
+        "categoryEn": "AI Development",
+        "image": "/images/project-4.png",
+        "description": "通过 AI 编程工具 Trae 0 编码情况下构建了我的个人网站，并将代码托管至 [Github](https://github.com/Thor1992/portfolio)，使用 Vercel 生成前端可视化页面。",
+        "descriptionEn": "Built my personal website with zero coding using Trae AI, hosted on [Github](https://github.com/Thor1992/portfolio) and deployed with Vercel for frontend visualization."
       }
     ]
   },
