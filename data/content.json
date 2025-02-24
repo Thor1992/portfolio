@@ -3,11 +3,13 @@
     "welcome": "👋 嘿，欢迎来到我的网站",
     "welcomeEn": "👋 Hey, Welcome to My Website",
     "name": "黄新贺",
-    "title": "面向用户端产品专家",
-    "titleEn": "User-Oriented Product Expert",
+    "nameEn": "Xinhe Huang",
+    "title": "用户产品专家",
+    "titleEn": "User Product Expert",
     "description": "10年互联网行业经验，擅长用户增长、B/C端产品优化及商业化设计。具备框架性思维与创新能力，在低成本撬动规模增长、用户提频、营销场景构建等领域有显著成果。",
     "descriptionEn": "10 years of experience in the internet industry, specializing in user growth, B/C-end product optimization, and commercial design. Equipped with systematic thinking and innovation capabilities, achieving significant results in low-cost scale growth, user engagement, and marketing scenario construction.",
     "location": "📍 杭州",
+    "locationEn": "📍 Hangzhou",
     "phone": "📞 183-6886-8864",
     "email": "✉️ huangxinhe1992@163.com"
   },
@@ -22,8 +24,8 @@
         "category": "项目 0-1",
         "categoryEn": "Project 0-1",
         "image": "/images/project-1.jpg",
-        "description": "背景：国际站作为平台型电商，缺乏定价权（商品/物流），\"省钱\"场景难以定义，用户心智建立困难。方法：我带领小组充分分析调研用户成交特征，确立全平台认可的低价商品标准；利用AI同款比价技术筛选低价商品，推出\"同款低价\"功能，强化场景心智；联合商家、行业团队，深度挖掘开发低价商品，提升买家匹配度。成果：Top Deals 场景渗透率提升285%，场景交易买家数激增161%，场景供给增长7倍。",
-        "descriptionEn": "Background: As a platform-based e-commerce, the international site lacks pricing power (products/logistics), making it difficult to define 'savings' scenarios and establish user mindset. Method: Led the team to analyze user transaction characteristics, established platform-wide low-price standards; utilized AI price comparison technology for similar products, launched 'Same Item Lower Price' feature; collaborated with merchants and industry teams to develop low-price products. Results: Top Deals scene penetration increased by 285%, scene transaction buyers surged by 161%, scene supply grew 7 times."
+        "description": "• 背景：国际站作为平台型电商，缺乏定价权（商品/物流），\"省钱\"场景难以定义，用户心智建立困难。\n• 方法：我带领小组充分分析调研用户成交特征，确立全平台认可的低价商品标准；利用AI同款比价技术筛选低价商品，推出\"同款低价\"功能，强化场景心智；联合商家、行业团队，深度挖掘开发低价商品，提升买家匹配度。\n• 成果：Top Deals 场景渗透率提升285%，场景交易买家数激增161%，场景供给增长7倍。",
+        "descriptionEn": "• Background: As a platform-based e-commerce, the international site lacks pricing power (products/logistics), making it difficult to define 'savings' scenarios and establish user mindset.\n• Method: Led the team to analyze user transaction characteristics, established platform-wide low-price standards; utilized AI price comparison technology for similar products, launched 'Same Item Lower Price' feature; collaborated with merchants and industry teams to develop low-price products.\n• Results: Top Deals scene penetration increased by 285%, scene transaction buyers surged by 161%, scene supply grew 7 times."
       },
       {
         "title": "低成本提升下单频次",
@@ -31,8 +33,8 @@
         "category": "用户频次增长",
         "categoryEn": "User Frequency Growth",
         "image": "/images/project-2.jpg",
-        "description": "背景：会员下单频次与红包数量强绑定、平台缺乏可持续增长下单频次的抓手。方法：创新融合消费游戏化运营思维：设计「福利金虚拟货币体系」，通过用户下单自动发放，叠加任务激励等手段推动下单频次增长，同步推动平台与商家成本共担模型落地。成果：月频次提升0.23单，其中任务体系贡献 0.1-0.15单（对比首页排序策略年均仅提升0.5单），在低新增预算前提下突破增长瓶颈。",
-        "descriptionEn": "Background: Member order frequency was strongly tied to coupon quantity, and the platform lacked sustainable tools for order frequency growth. Method: Innovatively integrated gamification concepts: designed a 'welfare points virtual currency system', automatically distributed through user orders, combined with task incentives to drive order frequency growth, while implementing a cost-sharing model between platform and merchants. Results: Monthly frequency increased by 0.23 orders, with task system contributing 0.1-0.15 orders (compared to homepage sorting strategy's annual increase of only 0.5 orders), breaking through growth bottlenecks under low budget constraints."
+        "description": "• 背景：会员下单频次与红包数量强绑定、平台缺乏可持续增长下单频次的抓手。\n• 方法：创新融合消费游戏化运营思维：设计「福利金虚拟货币体系」，通过用户下单自动发放，叠加任务激励等手段推动下单频次增长，同步推动平台与商家成本共担模型落地。\n• 成果：月频次提升0.23单，其中任务体系贡献 0.1-0.15单（对比首页排序策略年均仅提升0.5单），在低新增预算前提下突破增长瓶颈。",
+        "descriptionEn": "• Background: Member order frequency was strongly tied to coupon quantity, and the platform lacked sustainable tools for order frequency growth.\n• Method: Innovatively integrated gamification concepts: designed a 'welfare points virtual currency system', automatically distributed through user orders, combined with task incentives to drive order frequency growth, while implementing a cost-sharing model between platform and merchants.\n• Results: Monthly frequency increased by 0.23 orders, with task system contributing 0.1-0.15 orders (compared to homepage sorting strategy's annual increase of only 0.5 orders), breaking through growth bottlenecks under low budget constraints."
       },
       {
         "title": "构建一站式私域营销体系",
@@ -40,8 +42,8 @@
         "category": "用户转化提升",
         "categoryEn": "Conversion Rate Optimization",
         "image": "/images/project-3.jpg",
-        "description": "背景：京东自营生态强势导致店铺认知薄弱、营销碎片化，进店流量缺乏有效的转化手段。方法：基于用户「省钱心智」整合店铺分散的促销资源，设计强感知店铺活动氛围，规模化提升店铺转化能力。成果：实现店铺活动转化率从7%提升至22%，双十二峰值转化率高达53.5%；同时帮助店铺转化率提升接近3pt。",
-        "descriptionEn": "Background: JD's strong self-operated ecosystem led to weak store recognition and fragmented marketing, lacking effective conversion tools for store traffic. Method: Integrated scattered promotional resources based on users' 'money-saving mindset', designed highly perceptible store activity atmosphere to scale up store conversion capability. Results: Increased store activity conversion rate from 7% to 22%, with Double 12 peak conversion rate reaching 53.5%; helped improve store conversion rate by nearly 3 percentage points."
+        "description": "• 背景：京东自营生态强势导致店铺认知薄弱、营销碎片化，进店流量缺乏有效的转化手段。\n• 方法：基于用户「省钱心智」整合店铺分散的促销资源，设计强感知店铺活动氛围，规模化提升店铺转化能力。\n• 成果：实现店铺活动转化率从7%提升至22%，双十二峰值转化率高达53.5%；同时帮助店铺转化率提升接近3pt。",
+        "descriptionEn": "• Background: JD's strong self-operated ecosystem led to weak store recognition and fragmented marketing, lacking effective conversion tools for store traffic.\n• Method: Integrated scattered promotional resources based on users' 'money-saving mindset', designed highly perceptible store activity atmosphere to scale up store conversion capability.\n• Results: Increased store activity conversion rate from 7% to 22%, with Double 12 peak conversion rate reaching 53.5%; helped improve store conversion rate by nearly 3 percentage points."
       },
       {
         "title": "使用 AI 构建个人网站",

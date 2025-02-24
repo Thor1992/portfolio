@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { useLanguage } from "./language-provider"
 
 export default function Hero() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   return (
     <section className="pt-20 overflow-hidden">
@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 py-16 px-4">
           <div className="flex-1 max-w-xl">
             <p className="text-primary font-medium mb-4">{t("hero.welcome")}</p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">{t("hero.name")}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">{language === 'en' ? t("hero.nameEn") : t("hero.name")}</h1>
             <p className="text-2xl text-primary font-medium mb-4">{t("hero.title")}</p>
             <p className="text-muted-foreground mb-8 max-w-lg">
               {t("hero.description")}
