@@ -1,9 +1,12 @@
 {
   "hero": {
     "welcome": "👋 嘿，欢迎来到我的网站",
+    "welcomeEn": "👋 Hey, Welcome to My Website",
     "name": "黄新贺",
     "title": "面向用户端产品专家",
+    "titleEn": "User-Oriented Product Expert",
     "description": "10年互联网行业经验，擅长用户增长、B/C端产品优化及商业化设计。具备框架性思维与创新能力，在低成本撬动规模增长、用户提频、营销场景构建等领域有显著成果。",
+    "descriptionEn": "10 years of experience in the internet industry, specializing in user growth, B/C-end product optimization, and commercial design. Equipped with systematic thinking and innovation capabilities, achieving significant results in low-cost scale growth, user engagement, and marketing scenario construction.",
     "location": "📍 杭州",
     "phone": "📞 183-6886-8864",
     "email": "✉️ huangxinhe1992@163.com"
@@ -45,7 +48,7 @@
         "titleEn": "Building Personal Website with AI",
         "category": "AI 开发",
         "categoryEn": "AI Development",
-        "image": "/images/project-4.png",
+        "image": "/images/project-4.jpg",
         "description": "通过 AI 编程工具 Trae 0 编码情况下构建了我的个人网站，并将代码托管至 [Github](https://github.com/Thor1992/portfolio)，使用 Vercel 生成前端可视化页面。",
         "descriptionEn": "Built my personal website with zero coding using Trae AI, hosted on [Github](https://github.com/Thor1992/portfolio) and deployed with Vercel for frontend visualization."
       }
@@ -57,22 +60,53 @@
     "description": "这里记录了我的职业发展历程，展示了我在不同公司和岗位上的成长与成就。",
     "experiences": [
       {
-        "company": "阿里巴巴",
+        "company": "阿里巴巴（阿里国际站）",
+        "companyEn": "Alibaba (Alibaba.com)",
         "position": "产品专家",
+        "positionEn": "Product Expert",
         "period": "2021.8 - 至今",
-        "description": "主导B端电商平台首页及导购场景优化，推动核心数据增长与用户体验升级。首页CTR提升17.51%，paybuyer数+31.35%；Top Deals场景流量增长260%，场景paybuyer+470%；物流导购场景上线，工具使用效率显著提升。"
+        "periodEn": "Aug 2021 - Present",
+        "description": "负责阿里国际站首页及导购频道设计，实现核心数据增长与用户体验升级。帮助首页CTR+17.51%，交易买家数+31.35%，Top Deals场景渗透率提升285%，场景交易买家数激增161%，场景供给增长7倍。",
+        "descriptionEn": "Responsible for Alibaba.com homepage and shopping guide channel design, achieving core metrics growth and user experience enhancement. Helped increase homepage CTR by 17.51%, transaction buyers by 31.35%, Top Deals scene penetration by 285%, scene transaction buyers by 161%, and scene supply by 7 times."
       },
       {
-        "company": "美团（用户增长中心-会员）",
+        "company": "美团外卖（用户增长中心）",
+        "companyEn": "Meituan Waimai (User Growth Center)",
         "position": "高级产品经理",
+        "positionEn": "Senior Product Manager",
         "period": "2019.12 - 2021.8",
-        "description": "负责美团会员权益体系设计与会员增长，推动会员规模与活跃提升。设计会员分层运营策略，优化会员权益投放机制，实现会员规模持续增长。"
+        "periodEn": "Dec 2019 - Aug 2021",
+        "description": "负责美团会员权益体系设计与会员增长，推动会员规模与活跃提升。设计会员分层运营策略，优化会员权益投放机制，实现会员规模持续增长。帮助外卖会员规模提升2pt（20年会员整个部门增长6pt），月频次提升0.23单。",
+        "descriptionEn": "Responsible for Meituan membership benefits system design and member growth, driving membership scale and engagement improvement. Designed tiered membership operation strategy, optimized membership benefits distribution mechanism, achieving sustained membership growth. Helped increase food delivery membership by 2 percentage points (department-wide growth of 6 percentage points in 2020), and improved monthly order frequency by 0.23 orders."
+      },
+      {
+        "company": "京东（商家营销产品部）",
+        "companyEn": "JD.com (Merchant Marketing Product Department)",
+        "position": "高级产品经理",
+        "positionEn": "Senior Product Manager",
+        "period": "2018.3 - 2019.12",
+        "periodEn": "Mar 2018 - Dec 2019",
+        "description": "负责京东自营店铺营销体系搭建，设计一站式私域营销解决方案。通过整合店铺促销资源、优化活动展示形式，显著提升店铺转化能力。店铺活动转化率从7%提升至22%，双十二峰值转化率达53.5%。",
+        "descriptionEn": "Led the development of JD's self-operated store marketing system, designing one-stop private domain marketing solutions. Through integrating store promotional resources and optimizing campaign display formats, significantly enhanced store conversion capability. Improved store campaign conversion rate from 7% to 22%, achieving peak conversion rate of 53.5% during Double 12 shopping festival."
+      },
+      {
+        "company": "小黄人科技",
+        "companyEn": "Minion Technology",
+        "position": "产品经理",
+        "positionEn": "Product Manager",
+        "period": "2015.7 - 2018.3",
+        "periodEn": "Jul 2015 - Mar 2018",
+        "description": "负责微信排版编辑器产品的整体迭代和商业化方向。 帮助i排版用户量从3.8W增长至60W，付费率从1%提升至10%，服务奔驰、三星等客户。",
+        "descriptionEn": "Responsible for the overall iteration and commercialization of WeChat typesetting editor product. Grew iTypesetting user base from 38K to 600K, increased payment conversion rate from 1% to 10%, serving clients including Mercedes-Benz and Samsung."
       }
     ],
     "education": {
       "title": "本科",
-      "school": "浙江大学",
-      "major": "计算机科学与技术",
+      "titleEn": "Bachelor's Degree",
+      "school": "哈尔滨理工大学",
+      "schoolEn": "Harbin University of Science and Technology",
+      "major": "机械电子工程",
+      "majorEn": "Mechanical and Electronic Engineering",
       "period": "2011 - 2015"
     }
   },

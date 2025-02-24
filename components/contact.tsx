@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { FormEvent } from "react"
-
+import content from "@/data/content.json"
 import { useLanguage } from "./language-provider"
 
 export default function Contact() {
@@ -20,7 +20,7 @@ export default function Contact() {
       message: formData.get('message')
     }
 
-    const mailtoLink = `mailto:huangxinhe1992@163.com?subject=联系咨询&body=姓名：${data.name}%0A公司：${data.company}%0A邮箱：${data.email}%0A电话：${data.phone}%0A描述：${data.message}`
+    const mailtoLink = `mailto:${content.contact.email}?subject=联系咨询&body=姓名：${data.name}%0A公司：${data.company}%0A邮箱：${data.email}%0A电话：${data.phone}%0A描述：${data.message}`
     window.location.href = mailtoLink
   }
 

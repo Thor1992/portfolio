@@ -56,7 +56,7 @@ export default function Portfolio() {
               <div className="relative">
                 <AspectRatio ratio={16/9}>
                   <Image
-                    src={project.image.replace('.png', '.jpg')}
+                    src={project.image}
                     alt={language === 'en' ? project.titleEn : project.title}
                     fill
                     className="object-cover"
